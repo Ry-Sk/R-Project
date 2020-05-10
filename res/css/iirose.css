@@ -1,0 +1,100 @@
+.privatemsgMessagesBodyItemIcon,
+.privatemsgSexBody,
+.privatemsgIcon,
+.privatemsgIconBg,
+.privatemsgSex,
+.privatemsgSexShadow,
+.whoisAvatarBox>div:nth-child(1),
+.whoisAvatarBox>div:nth-child(1)>div:nth-child(1)/*,
+.room_chat_content>div:nth-child(1)>div:nth-child(1),
+.room_chat_content>div:nth-child(1)>div:nth-child(2),
+.room_chat_content>div:nth-child(1)>div:nth-child(3)*/ {
+    display: none !important;
+}
+
+.privatemsgInfo {
+    width: 250px !important;
+}
+
+.privatemsgCloseWraper,
+.privatemsgInfo {
+    /*background: rgba(48,48,48) !important;*/
+    background: #303030 !important;
+}
+
+.privatemsgCloseWraper {
+    width: 50px !important;
+}
+
+.systemCardMediaShare,
+.privatemsgMessagesBodyItemBody>div:nth-child(1)>div:nth-child(1),
+.room_chat_content {
+    border-radius: 10px 10px 10px 0px !important;
+}
+
+.room_chat_content[style*=margin-left]>div:nth-child(2)>div:nth-child(1),
+.privatemsgMessagesBodyItemBody[style*="float:right;"]>div:nth-child(1)>div:nth-child(1),
+.room_chat_content[style*=margin-left] {
+    border-radius: 10px 10px 0px 10px !important;
+}
+
+#roominfoHolder>div:nth-child(2)>div:nth-child(2)>div:nth-child(1)>div:nth-child(2)>div:nth-child(1)>div:nth-child(1),
+.room_chat_content[style*=margin-left]>div:nth-child(3) {
+    border-radius: 10px 0px 0px 10px !important;
+}
+
+.systemCardMediaShareImg {
+    border-radius: 0px 10px 10px 0px !important;
+}
+
+#moveinputBubble {
+    border-radius: 0px 10px 0px 0px !important;
+}
+
+.mapHolderRoomListItem>div:nth-child(1)>div:nth-child(1),
+#makeMoneyHolder>div:nth-child(2)>div:nth-child(2)>div:nth-child(1)>div:nth-child(1)>div:nth-child(1),
+.commonBoxHead {
+    border-radius: 10px 10px 0px 0px !important;
+}
+
+.commonBox>div:nth-child(2) {
+    border-radius: 0px 0px 10px 10px !important;
+}
+
+#selectHolderBox,
+#initshowLoadBody,
+#bankHolder,
+#stockHolder,
+#shellHolder,
+.mapHolderRoomListItem,
+.panelHolderItemSmall,
+.maxWidth_24,
+.shopItemColor,
+.commonBox,
+.cardTag,
+.userholder,
+.otherroom,
+.mapHolderRoomListItem,
+.privatemsg {
+    border-radius: 10px !important;
+}
+
+.privatemsgNameContent {
+    width: 80px;
+    overflow: inherit !important;
+}
+
+#userREHolder>div:nth-child(2)>div:nth-child(2)>div:nth-child(1)>div:nth-child(1)>div:nth-child(1),
+#userREHolder>div:nth-child(2)>div:nth-child(2)>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)>div:nth-child(1),
+.cardTagAvatar,
+.roomavatar>div:nth-child(1),
+.whoisAvatarBox,
+.ExtIconSettings,
+.whoisAvatar,
+.msgavatar {
+    border-radius: 50% !important;
+}
+
+#initshowBoxContent>div:nth-child(2)>div:nth-child(2) {
+    border: 0px !important;
+}
