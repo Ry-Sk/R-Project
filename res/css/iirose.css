@@ -38,11 +38,16 @@
     border-radius: 10px 10px 0px 10px !important;
 }
 
+#helpHolder>div:nth-child(4)>div:nth-child(2)>div:nth-child(1)>div:nth-child(1)>div:nth-child(1),
+#helpHolder>div:nth-child(5)>div:nth-child(2)>div:nth-child(1)>div:nth-child(1)>div:nth-child(1),
 #roominfoHolder>div:nth-child(2)>div:nth-child(2)>div:nth-child(1)>div:nth-child(2)>div:nth-child(1)>div:nth-child(1),
 .room_chat_content[style*=margin-left]>div:nth-child(3) {
     border-radius: 10px 0px 0px 10px !important;
 }
 
+#helpHolder>div:nth-child(4)>div:nth-child(2)>div:nth-child(1)>div:nth-child(1)>div:nth-child(6),
+/*此项目会与检察官 房间通知 DIV 产生冲突，故注释，之后寻找其他方法*/
+/*#helpHolder>div:nth-child(5)>div:nth-child(2)>div:nth-child(1)>div:nth-child(1)>div:nth-child(5),*/
 .systemCardMediaShareImg {
     border-radius: 0px 10px 10px 0px !important;
 }
@@ -52,6 +57,7 @@
 }
 
 .mapHolderRoomListItem>div:nth-child(1)>div:nth-child(1),
+.followName>div:nth-child(1),
 #makeMoneyHolder>div:nth-child(2)>div:nth-child(2)>div:nth-child(1)>div:nth-child(1)>div:nth-child(1),
 .commonBoxHead {
     border-radius: 10px 10px 0px 0px !important;
@@ -83,6 +89,7 @@
 .userholder,
 .otherroom,
 .mapHolderRoomListItem,
+.followName,
 .privatemsg {
     border-radius: 10px !important;
 }
