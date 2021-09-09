@@ -1,0 +1,87 @@
+/* R-Project 1.2.0
+Made ❤ with Saiki */
+
+
+/* 自定义用户数据 配置文件 */
+
+
+/* 自定义登录头图 */
+
+#gameHolder>div:nth-child(2) {
+    background-image: url(https://cdn.jsdelivr.net/gh/route-1/storage@latest/2020/08/22/8ff51a26a79421d1aa0765384ba2dbd3) !important;
+    background-size: cover !important;
+}
+
+
+/* 自定义用户头像 */
+
+.msgavatar[data-uid^="57bfdd4de3691"] {
+    background-image: url(http://r.iirose.com/i/20/3/11/10/0155-A2.jpg) !important;
+}
+
+.msgavatar[data-uid^="58fcb975166d9"],
+.msgavatar[data-uid^="57bff392ae9d3"] {
+    background-image: url(https://cdn.jsdelivr.net/gh/route-1/storage@latest/2020/08/22/a821ef59d7967e6f89200dac08216c7e) !important;
+}
+
+
+/* .msgavatar[data-uid^="5bba34bd423d8"],
+.msgavatar[data-uid^="56c9c1bf05262"] {
+    background-image: url(https://cdn.jsdelivr.net/gh/route-1/storage@latest/2020/08/22/217b3c67ccbf11676eb9d9855de8c548) !important;
+} */
+
+
+/* 自定义用户气泡背景 */
+
+
+/* .msg[data-id^="5bba34bd423d8"]>div:nth-child(1)>div:nth-child(1)>div:nth-child(1),
+.msg[data-id^="56c9c1bf05262"]>div:nth-child(1)>div:nth-child(1)>div:nth-child(1) {
+    background-color: var(--red);
+} */
+
+.msg[data-id^="58fcb975166d9"]>div:nth-child(1)>div:nth-child(1)>div:nth-child(1),
+.msg[data-id^="57bff392ae9d3"]>div:nth-child(1)>div:nth-child(1)>div:nth-child(1) {
+    background-image: url(https://cdn.jsdelivr.net/gh/route-1/storage@latest/2020/08/22/4dd90a42a4877ad863291f12ed9a664d) !important;
+    background-size: cover;
+    border-radius: 8px !important;
+    /* filter: drop-shadow(5px 2px 20px rgb(221, 232, 249)); */
+}
+
+
+/* 自定义用户气泡字体颜色 */
+
+
+/* .msg[data-id^="5bba34bd423d8"]>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2),
+.msg[data-id^="56c9c1bf05262"]>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2) {
+    color: var(--red);
+} */
+
+.msg[data-id^="58fcb975166d9"]>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2),
+.msg[data-id^="57bff392ae9d3"]>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2) {
+    /* font-size: 64px; */
+    color: #232;
+    /* font-weight: 900; */
+    /* -webkit-text-stroke: 0.5px rgb(221, 232, 249); */
+}
+
+
+/* 删除用户左（右）下角角标 */
+
+.msg[data-id^="58fcb975166d9"]>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)>div,
+.msg[data-id^="57bff392ae9d3"]>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)>div {
+    display: none;
+}
+
+
+/* 直接删除对方消息
+data-id 里请填入对应用户UID
+.msg[data-id^="5eb934aca592e"] {
+    display: none !important;
+} */
+
+
+/* 以模糊的方式屏蔽用户请使用以下格式
+data-id 里请填入对应用户UID
+.msg[data-id^="5c958f51a3f3c"] {
+    filter: blur(8px);
+} */
