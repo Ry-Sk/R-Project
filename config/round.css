@@ -139,6 +139,7 @@ Made ❤ with Saiki */
 .danmakuAvatar,
 .msgavatar {
     border-radius: 50% !important;
+    overflow: hidden !important;
 }
 
 .roomavatar>div:nth-child(1) {
