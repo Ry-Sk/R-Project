@@ -121,8 +121,20 @@ Made ❤ with Saiki */
 .followName,
 .privatemsgMessagesTimeBody,
 .privatemsgMessagesSystemBody,
+.mapHolderRoomListItem>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)>img,
+.roomavatar>div:nth-child(1)>div:nth-child(1)>img,
+.shopItemColor>div:nth-child(1)>div:nth-child(1)>img,
+.whoisTouch2>div:nth-child(1)>div:nth-child(1)>img,
+.systemCardMediaShareImg>div:nth-child(1)>img,
 .privatemsg {
     border-radius: 8px !important;
+}
+
+.shopItemColor>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)>img,
+.shopItemColor>div:nth-child(1)>div:nth-child(1)>img,
+.mapHolderRoomListItem>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)>img,
+.roomavatar>div:nth-child(1)>div:nth-child(1)>img {
+    box-shadow: 0px 0px 3px #232323;
 }
 
 .privatemsgNameContent {
@@ -130,6 +142,17 @@ Made ❤ with Saiki */
     overflow: inherit !important;
 }
 
+
+/* 
+.functionButton,
+.functionButton {
+    margin-left: 5%;
+    width: 90% !important;
+    margin-top: 5px !important;
+    border-radius: 28px !important;
+} */
+
+.shopItemColor>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)>img,
 #userREHolder>div:nth-child(2)>div:nth-child(2)>div:nth-child(1)>div:nth-child(1)>div:nth-child(1),
 #userREHolder>div:nth-child(2)>div:nth-child(2)>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)>div:nth-child(1),
 .cardTagAvatar,
