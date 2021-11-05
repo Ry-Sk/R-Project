@@ -46,6 +46,7 @@ Made ❤ with Saiki */
     display: none !important;
 }
 
+.privatemsgInfo,
 .room_chat_content,
 .privatemsgMessagesBodyItemBodyBG,
 #panelHolder .panelHolderItem>.contentItemBgicon,
@@ -59,7 +60,7 @@ Made ❤ with Saiki */
 .privatemsgMessagesBodyItemBodyBG>div:nth-child(1)[style*=right]>div:nth-child(3),
 .room_chat_content>div:nth-child(1)[style*=right]>div:nth-child(3),
 .contentItemContent>div:nth-child(1) {
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(8px);
 }
 
 #panelHolder .panelHolderItem>.contentItemBgicon,
@@ -75,17 +76,23 @@ Made ❤ with Saiki */
 .privatemsgMessagesBodyItemBodyBG>div:nth-child(1)>div:nth-child(3),
 .room_chat_content>div:nth-child(1)>div:nth-child(3) {
     border-color: rgba(32, 32, 32, 0.8) !important;
+} */
+
+.privatemsgMessagesBodyItemBodyBG>div:nth-child(1)>div:nth-child(3),
+.room_chat_content>div:nth-child(1)>div:nth-child(3) {
     border-width: 5.8125px !important;
     border-top-color: transparent !important;
 }
+
 .privatemsgMessagesBodyItemBodyBG>div:nth-child(1)[style*=right]>div:nth-child(3),
 .room_chat_content>div:nth-child(1)[style*=right]>div:nth-child(3) {
     border-right-color: transparent !important;
 }
+
 .privatemsgMessagesBodyItemBodyBG>div:nth-child(1)[style*=left]>div:nth-child(3),
 .room_chat_content>div:nth-child(1)[style*=left]>div:nth-child(3) {
     border-left-color: transparent !important;
-} */
+}
 
 
 /* OR */
