@@ -13,6 +13,7 @@ Made ❤ with Saiki */
     color: rgba(255, 255, 255, .5) !important;
 }
 
+#danmakuHolder,
 #selectHolderBox,
 .contentItemContent>div:nth-child(1) {
     backdrop-filter: blur(5px);
@@ -24,12 +25,12 @@ Made ❤ with Saiki */
     backdrop-filter: blur(5px);
 }
 
-.room_chat_content,
-.room_chat_content>div:nth-child(1)>div:nth-child(3) {
+.room_chat_content {
     background-color: rgba(32, 32, 32, 0.8) !important;
 }
 
 .room_chat_content>div:nth-child(1)>div:nth-child(3) {
+    border-color: rgba(32, 32, 32, 0.8) !important;
     border-width: 5.8125px !important;
     border-top-color: transparent !important;
 }
