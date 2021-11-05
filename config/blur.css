@@ -6,6 +6,7 @@ Made ❤ with Saiki */
     请务必使用 黑暗主题 
     关闭 沉浸模式
     开启 透明模式
+    或者 沉浸模式
 */
 
 @charset "utf-8";
@@ -13,32 +14,45 @@ Made ❤ with Saiki */
     color: rgba(255, 255, 255, .5) !important;
 }
 
+.room_chat_content,
+.privatemsgMessagesBodyItemBodyBG,
+#panelHolder .panelHolderItem>.contentItemBgicon,
+#panelHolder .panelHolderItem>.fullBox>.contentItemBgicon,
 #danmakuHolder,
 #selectHolderBox,
+.privatemsgMessages,
+.privatemsgFooter,
+.privatemsgMessagesBodyItemBodyBG>div:nth-child(1)[style*=right]>div:nth-child(3),
+.room_chat_content>div:nth-child(1)[style*=right]>div:nth-child(3),
+.privatemsgMessagesBodyItemBodyBG>div:nth-child(1)[style*=right]>div:nth-child(3),
+.room_chat_content>div:nth-child(1)[style*=right]>div:nth-child(3),
 .contentItemContent>div:nth-child(1) {
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(20px);
 }
 
 #panelHolder .panelHolderItem>.contentItemBgicon,
 #panelHolder .panelHolderItem>.fullBox>.contentItemBgicon {
     background: transparent;
-    backdrop-filter: blur(5px);
 }
 
+.privatemsgMessagesBodyItemBodyBG,
 .room_chat_content {
     background-color: rgba(32, 32, 32, 0.8) !important;
 }
 
+.privatemsgMessagesBodyItemBodyBG>div:nth-child(1)>div:nth-child(3),
 .room_chat_content>div:nth-child(1)>div:nth-child(3) {
     border-color: rgba(32, 32, 32, 0.8) !important;
     border-width: 5.8125px !important;
     border-top-color: transparent !important;
 }
 
+.privatemsgMessagesBodyItemBodyBG>div:nth-child(1)[style*=right]>div:nth-child(3),
 .room_chat_content>div:nth-child(1)[style*=right]>div:nth-child(3) {
     border-right-color: transparent !important;
 }
 
+.privatemsgMessagesBodyItemBodyBG>div:nth-child(1)[style*=left]>div:nth-child(3),
 .room_chat_content>div:nth-child(1)[style*=left]>div:nth-child(3) {
     border-left-color: transparent !important;
 }
