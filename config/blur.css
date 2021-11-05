@@ -27,6 +27,17 @@ Made ❤ with Saiki */
     overflow: hidden !important;
 }
 
+.privatemsgMessagesBodyItemIcon,
+.privatemsgSexBody,
+.privatemsgIcon,
+.privatemsgIconBg,
+.privatemsgSex,
+.privatemsgSexShadow,
+.whoisAvatarBox>div:nth-child(1),
+.whoisAvatarBox>div:nth-child(1)>div:nth-child(1) {
+    display: none !important;
+}
+
 .room_chat_content,
 .privatemsgMessagesBodyItemBodyBG,
 #panelHolder .panelHolderItem>.contentItemBgicon,
