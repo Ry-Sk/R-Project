@@ -14,6 +14,19 @@ Made ❤ with Saiki */
     color: rgba(255, 255, 255, .5) !important;
 }
 
+.shopItemColor>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)>img,
+#userREHolder>div:nth-child(2)>div:nth-child(2)>div:nth-child(1)>div:nth-child(1)>div:nth-child(1),
+#userREHolder>div:nth-child(2)>div:nth-child(2)>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)>div:nth-child(1),
+.cardTagAvatar,
+.whoisAvatarBox,
+.ExtIconSettings,
+.whoisAvatar,
+.danmakuAvatar,
+.msgavatar {
+    border-radius: 50% !important;
+    overflow: hidden !important;
+}
+
 .room_chat_content,
 .privatemsgMessagesBodyItemBodyBG,
 #panelHolder .panelHolderItem>.contentItemBgicon,
