@@ -1,6 +1,6 @@
 {
     "content_scripts": [{
-        "css": ["config/round.css", "config/color.css", "config/user.css"],
+        "css": ["config/round.css", "config/color.css", "config/user.css", "config/blur.css"],
         "all_frames": true,
         "matches": ["http://iirose.com/*", "https://iirose.com/*"]
     }],
