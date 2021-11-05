@@ -101,9 +101,14 @@ Made ❤ with Saiki */
     opacity: 0.9;
 }
 
-.privatemsgMessagesBodyItemBodyBG>div:nth-child(1)>div:nth-child(3),
+
+/* .privatemsgMessagesBodyItemBodyBG>div:nth-child(1)>div:nth-child(3),
 .room_chat_content>div:nth-child(1)>div:nth-child(3) {
     border-width: 5.8125px !important;
+} */
+
+.privatemsgMessagesBodyItemBodyBG>div:nth-child(1)>div:nth-child(3),
+.room_chat_content>div:nth-child(1)>div:nth-child(3) {
     border-top-color: transparent !important;
 }
 
