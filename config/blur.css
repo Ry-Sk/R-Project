@@ -53,6 +53,14 @@ Made ❤ with Saiki */
 #panelHolder .panelHolderItem>.fullBox>.contentItemBgicon,
 #danmakuHolder,
 #selectHolderBox,
+#shellHolder,
+#stockHolder,
+#noteHolder,
+#gameEmulatorHolder,
+#symbolsHolder,
+#pairHolder,
+#translateHolder,
+#paintHolder,
 .privatemsgMessages,
 .privatemsgFooter,
 .privatemsgMessagesBodyItemBodyBG>div:nth-child(1)[style*=right]>div:nth-child(3),
@@ -78,6 +86,20 @@ Made ❤ with Saiki */
     border-color: rgba(32, 32, 32, 0.8) !important;
 } */
 
+.privatemsgMessagesBodyItemBodyBG,
+.room_chat_content {
+    background-color: rgba(32, 32, 32, 1) !important;
+}
+
+.privatemsgMessagesBodyItemBodyBG>div:nth-child(1)>div:nth-child(3),
+.room_chat_content>div:nth-child(1)>div:nth-child(3) {
+    border-color: rgba(32, 32, 32, 1) !important;
+}
+
+.roomChatContentBox {
+    opacity: 0.9;
+}
+
 .privatemsgMessagesBodyItemBodyBG>div:nth-child(1)>div:nth-child(3),
 .room_chat_content>div:nth-child(1)>div:nth-child(3) {
     border-width: 5.8125px !important;
@@ -92,21 +114,4 @@ Made ❤ with Saiki */
 .privatemsgMessagesBodyItemBodyBG>div:nth-child(1)[style*=left]>div:nth-child(3),
 .room_chat_content>div:nth-child(1)[style*=left]>div:nth-child(3) {
     border-left-color: transparent !important;
-}
-
-
-/* OR */
-
-.privatemsgMessagesBodyItemBodyBG,
-.room_chat_content {
-    background-color: rgba(32, 32, 32, 1) !important;
-}
-
-.privatemsgMessagesBodyItemBodyBG>div:nth-child(1)>div:nth-child(3),
-.room_chat_content>div:nth-child(1)>div:nth-child(3) {
-    border-color: rgba(32, 32, 32, 1) !important;
-}
-
-.roomChatContentBox {
-    opacity: 0.9;
 }
