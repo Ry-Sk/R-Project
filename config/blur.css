@@ -27,6 +27,14 @@ Made ❤ with Saiki */
     overflow: hidden !important;
 }
 
+.privatemsgInfo {
+    width: 300px !important;
+}
+
+.privatemsgCloseWraper {
+    width: 50px !important;
+}
+
 .privatemsgMessagesBodyItemIcon,
 .privatemsgSexBody,
 .privatemsgIcon,
@@ -59,32 +67,39 @@ Made ❤ with Saiki */
     background: transparent;
 }
 
-.privatemsgMessagesBodyItemBodyBG,
+
+/* .privatemsgMessagesBodyItemBodyBG,
 .room_chat_content {
     background-color: rgba(32, 32, 32, 0.8) !important;
 }
-
 .privatemsgMessagesBodyItemBodyBG>div:nth-child(1)>div:nth-child(3),
 .room_chat_content>div:nth-child(1)>div:nth-child(3) {
     border-color: rgba(32, 32, 32, 0.8) !important;
     border-width: 5.8125px !important;
     border-top-color: transparent !important;
 }
-
 .privatemsgMessagesBodyItemBodyBG>div:nth-child(1)[style*=right]>div:nth-child(3),
 .room_chat_content>div:nth-child(1)[style*=right]>div:nth-child(3) {
     border-right-color: transparent !important;
 }
-
 .privatemsgMessagesBodyItemBodyBG>div:nth-child(1)[style*=left]>div:nth-child(3),
 .room_chat_content>div:nth-child(1)[style*=left]>div:nth-child(3) {
     border-left-color: transparent !important;
-}
+} */
 
 
 /* OR */
 
+.privatemsgMessagesBodyItemBodyBG,
+.room_chat_content {
+    background-color: rgba(32, 32, 32, 1) !important;
+}
 
-/* .roomChatContentBox {
+.privatemsgMessagesBodyItemBodyBG>div:nth-child(1)>div:nth-child(3),
+.room_chat_content>div:nth-child(1)>div:nth-child(3) {
+    border-color: rgba(32, 32, 32, 1) !important;
+}
+
+.roomChatContentBox {
     opacity: 0.9;
-} */
+}
